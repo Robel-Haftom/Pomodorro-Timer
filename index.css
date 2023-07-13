@@ -1,0 +1,44 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+    padding: 50px; 
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    font-weight: 600;
+    color: rgb(63, 63, 63);
+    margin: 30px auto;
+}
+
+.timer{
+    font-size: 45px;
+    font-weight: 400;
+}
+
+button{
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    padding: 10px 30px;
+    border: none;
+    border-radius: 4px;
+    margin: auto 10px;
+    cursor: pointer;
+}
+
+.start-button{
+    background-color: green;
+}
+.stop-button{
+    background-color: red;
+}
+.reset-button{
+    background-color: gray;
+}
+
+button:hover{
+    filter: brightness(0.75);
+}
